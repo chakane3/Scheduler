@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		9478E1F0273F146A00B9BE91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478E1EF273F146A00B9BE91 /* AppDelegate.swift */; };
 		9478E1F2273F146A00B9BE91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478E1F1273F146A00B9BE91 /* SceneDelegate.swift */; };
-		9478E1F4273F146A00B9BE91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478E1F3273F146A00B9BE91 /* ViewController.swift */; };
+		9478E1F4273F146A00B9BE91 /* ScheduleListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478E1F3273F146A00B9BE91 /* ScheduleListController.swift */; };
 		9478E1F7273F146A00B9BE91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9478E1F5273F146A00B9BE91 /* Main.storyboard */; };
 		9478E1F9273F146C00B9BE91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9478E1F8273F146C00B9BE91 /* Assets.xcassets */; };
 		9478E1FC273F146C00B9BE91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9478E1FA273F146C00B9BE91 /* LaunchScreen.storyboard */; };
 		9478E207273F146C00B9BE91 /* SchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478E206273F146C00B9BE91 /* SchedulerTests.swift */; };
 		9478E211273F146C00B9BE91 /* SchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478E210273F146C00B9BE91 /* SchedulerUITests.swift */; };
 		9478E213273F146C00B9BE91 /* SchedulerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478E212273F146C00B9BE91 /* SchedulerUITestsLaunchTests.swift */; };
+		9478E220273F192200B9BE91 /* createViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478E21F273F192200B9BE91 /* createViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		9478E1EC273F146A00B9BE91 /* Scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9478E1EF273F146A00B9BE91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9478E1F1273F146A00B9BE91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9478E1F3273F146A00B9BE91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9478E1F3273F146A00B9BE91 /* ScheduleListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListController.swift; sourceTree = "<group>"; };
 		9478E1F6273F146A00B9BE91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9478E1F8273F146C00B9BE91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9478E1FB273F146C00B9BE91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		9478E20C273F146C00B9BE91 /* SchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9478E210273F146C00B9BE91 /* SchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerUITests.swift; sourceTree = "<group>"; };
 		9478E212273F146C00B9BE91 /* SchedulerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9478E21F273F192200B9BE91 /* createViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,8 @@
 			children = (
 				9478E1EF273F146A00B9BE91 /* AppDelegate.swift */,
 				9478E1F1273F146A00B9BE91 /* SceneDelegate.swift */,
-				9478E1F3273F146A00B9BE91 /* ViewController.swift */,
+				9478E1F3273F146A00B9BE91 /* ScheduleListController.swift */,
+				9478E21F273F192200B9BE91 /* createViewController.swift */,
 				9478E1F5273F146A00B9BE91 /* Main.storyboard */,
 				9478E1F8273F146C00B9BE91 /* Assets.xcassets */,
 				9478E1FA273F146C00B9BE91 /* LaunchScreen.storyboard */,
@@ -258,7 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9478E1F4273F146A00B9BE91 /* ViewController.swift in Sources */,
+				9478E220273F192200B9BE91 /* createViewController.swift in Sources */,
+				9478E1F4273F146A00B9BE91 /* ScheduleListController.swift in Sources */,
 				9478E1F0273F146A00B9BE91 /* AppDelegate.swift in Sources */,
 				9478E1F2273F146A00B9BE91 /* SceneDelegate.swift in Sources */,
 			);
