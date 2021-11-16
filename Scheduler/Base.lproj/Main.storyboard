@@ -18,6 +18,9 @@
                         <subviews>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Phe-xg-Gz5">
                                 <rect key="frame" x="47" y="313" width="320" height="216"/>
+                                <connections>
+                                    <action selector="datePickerChangedWithSender:" destination="qR3-IF-EnT" eventType="valueChanged" id="aO9-qo-1rb"/>
+                                </connections>
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sCr-pW-dq4">
                                 <rect key="frame" x="140" y="537" width="134" height="31"/>
@@ -48,6 +51,7 @@
                     </view>
                     <connections>
                         <outlet property="createEventTextField" destination="hLd-an-7TX" id="nOM-hj-REY"/>
+                        <outlet property="datePicker" destination="Phe-xg-Gz5" id="8kD-Ye-fMc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tdz-G0-Oe4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
